@@ -1,0 +1,30 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-11-09 13:04:48.442738",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-11-09 13:20:26.122493",
+ "modified_by": "Administrator",
+ "module": "Student Management",
+ "name": "server side scripting query report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT first_name as `First Name`\nFROM \"tabServer Side Scripting\";",
+ "ref_doctype": "Server Side Scripting",
+ "report_name": "server side scripting query report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Librarian"
+  }
+ ]
+}

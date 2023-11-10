@@ -1,0 +1,33 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2023-10-29 14:28:22.914905",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-10-29 14:28:22.914905",
+ "modified_by": "Administrator",
+ "module": "Student Management",
+ "name": "Article Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT article_name as \"Article Name\"\nFROM tabArticle",
+ "ref_doctype": "Article",
+ "report_name": "Article Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Librarian"
+  },
+  {
+   "role": "library Member"
+  }
+ ]
+}

@@ -215,3 +215,13 @@ app_license = "MIT"
 # auth_hooks = [
 #	"student_management.auth.validate"
 # ]
+
+
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["name", "in", ["Note-Test Field"]]
+        ]
+    }
+]
